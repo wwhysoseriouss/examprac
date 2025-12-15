@@ -24,7 +24,7 @@ def get_days_in_month(month_name):
     return month_days[normalized_name]
 
 if __name__ == "__main__":
-    print("enter month:")
+    print("enter MONTH:")
     try:
         user_input = input().strip()
         days = get_days_in_month(user_input)
